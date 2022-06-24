@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dedb9a6a-9861-49de-adb7-21e845f2d964" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ConvertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/DESKeyIVUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ICCard_CoalModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewICCardConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/res/xml/nfc_tech_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ConvertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/DESKeyIVUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ReaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/res/xml/nfc_tech_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coal_modify_tool/lib/common/store/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../coal_modify_tool/lib/common/store/user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ICCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ICCardConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewICCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewICCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewNFCBaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewNFCReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewNFCReaderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NfcReadWritePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NfcReadWritePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/java/com/nfc_read_write/nfc_read_write_example/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/java/com/nfc_read_write/nfc_read_write_example/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/lib/nfc_read_write.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/lib/nfc_read_write.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nfc_read_write/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2B0DixpsAWf1WnYJYxOY9Hrz98S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dedb9a6a-9861-49de-adb7-21e845f2d964" name="Default Changelist" comment="" />
+      <created>1656034244982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656034244982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1478" height="210" key="GridCell.Tab.0.bottom" timestamp="1656072865399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656072865399" />
+    <state width="1478" height="210" key="GridCell.Tab.0.center" timestamp="1656072865399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656072865399" />
+    <state width="1478" height="210" key="GridCell.Tab.0.left" timestamp="1656072865399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656072865399" />
+    <state width="1478" height="210" key="GridCell.Tab.0.right" timestamp="1656072865399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656072865399" />
+  </component>
+</project>
