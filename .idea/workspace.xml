@@ -11,12 +11,6 @@
       <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/NewICCardConvert.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ResultUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nfc_read_write/example/android/app/src/main/res/xml/nfc_tech_filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ConvertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/DESKeyIVUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ReaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/nfc_read_write/nfc_read_write_plugin/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/res/xml/nfc_tech_filter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coal_modify_tool/lib/common/store/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../coal_modify_tool/lib/common/store/user.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/android/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nfc_read_write/android/src/main/java/com/nfc_read_write/nfc_read_write/ICCard.java" beforeDir="false" />
@@ -32,6 +26,12 @@
       <change beforePath="$PROJECT_DIR$/../nfc_read_write/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nfc_read_write/lib/nfc_read_write.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/lib/nfc_read_write.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nfc_read_write/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../nfc_read_write/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2B0DixpsAWf1WnYJYxOY9Hrz98S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,10 +51,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flutter.example/lib/main.dart">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
       <method v="2" />
