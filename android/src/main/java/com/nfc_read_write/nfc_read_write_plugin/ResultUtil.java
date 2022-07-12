@@ -63,6 +63,9 @@ public class ResultUtil implements Serializable {
     public static Map<String,Object> ok(String message) {
         return new ResultUtil(message).toMap();
     }
+    public static Map<String,Object> ok(Integer code,String message) {
+        return new ResultUtil(code,message).toMap();
+    }
     public  static Map<String,Object> ok(String message,Object data) {
         return new ResultUtil(message,data).toMap();
     }
@@ -71,7 +74,7 @@ public class ResultUtil implements Serializable {
     }
 
 
-    public static Map<String,Object> fail(String code, String message) {
+    public static Map<String,Object> fail(Integer code, String message) {
         return new ResultUtil(code,message).toMap();
     }
     public static Map<String,Object> fail(  String message) {

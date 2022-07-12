@@ -1,6 +1,6 @@
 name: nfc_read_write_plugin
-description: A new Flutter project.
-version: 0.0.1
+description: a flutter plugin that can read and write mifare card via NFC on the Android platform.
+version: 0.0.6
 homepage: https://github.com/joy-A/nfc_read_write_plugin
 
 environment:
@@ -10,10 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_plugin_android_lifecycle: ^2.0.6
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
