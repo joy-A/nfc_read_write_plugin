@@ -359,7 +359,8 @@ public class ConvertUtil {
             arrDest[destOffset + i] = (byte) byt;
         }
         return arrDest;
-    }public static byte[] str2Bcd(String asc,int len) {
+    }
+    public static byte[] str2Bcd(String asc,int len) {
          int mod = len % 2;
         if (mod != 0) {
             asc = "0" + asc;

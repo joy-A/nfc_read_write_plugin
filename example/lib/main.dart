@@ -24,13 +24,15 @@ class _MyAppState extends State<MyApp> {
     initPlatformState();
     initEvent();
   }
-  initEvent()async{
-    await NfcReadWritePlugin.eventListen(onEvent: (message){
+
+  initEvent() async {
+    await NfcReadWritePlugin.eventListen(onEvent: (message) {
       setState(() {
         result = message;
       });
     });
   }
+
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
     String platformVersion;
@@ -59,47 +61,82 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: SingleChildScrollView(
-          child: Column(children: [
-            Text('Running on: $_platformVersion\n'),
-            Text('事件监听：${result?.toString()}'),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.initService("42374D4C3546", "B10A23D18F20");
-              print("dart...$data");
-            },child: const Text("initService"),),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readAll(decrypt: true);
-              print("dart...$data");
-            },child: const Text("readAll decrypt: true"),),ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readAll();
-              print("dart...$data");
-            },child: const Text("readAll"),),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.writeBlock(40, "你好测试一下");
-              print("dart...$data");
-            },child: const Text("writeBlock"),),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readSector(10);
-              print("dart...$data");
-            },child: const Text("readSector"),)
-            ,
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readSector(10,decrypt: true);
-              print("dart...$data");
-            },child: const Text("readSector decrypt: true"),)
-,  ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.writeBlock(40, "你好测试一下",encrypt: true);
-              print("dart...$data");
-            },child: const Text("writeBlock encrypt: true"),),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readBlock(40,decrypt: true);
-              print("dart...$data");
-            },child: const Text("readBlock decrypt: true"),),
-            ElevatedButton(onPressed: () async {
-              var data = await NfcReadWritePlugin.readBlock(40, );
-              print("dart...$data");
-            },child: const Text("readBlock  "),)
+          child: Column(
+            children: [
+              Text('Running on: $_platformVersion\n'),
+              Text('事件监听：${result?.toString()}'),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.initService(
+                      "42374D4C3546", "B10A23D18F20");
+                  debugPrint("dart...$data");
+                },
+                child: const Text("initService"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.readAll(decrypt: true);
 
-          ],),
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readAll decrypt: true"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.readAll();
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readAll"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.writeBlock(40, "你好测试一下");
+                  debugPrint("dart...$data");
+                },
+                child: const Text("writeBlock"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.readSector(10);
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readSector"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data =
+                      await NfcReadWritePlugin.readSector(10, decrypt: true);
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readSector decrypt: true"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.writeBlock(40, "你好测试一下",
+                      encrypt: true);
+                  debugPrint("dart...$data");
+                },
+                child: const Text("writeBlock encrypt: true"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data =
+                      await NfcReadWritePlugin.readBlock(40, decrypt: true);
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readBlock decrypt: true"),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  var data = await NfcReadWritePlugin.readBlock(
+                    40,
+                  );
+                  debugPrint("dart...$data");
+                },
+                child: const Text("readBlock  "),
+              )
+            ],
+          ),
         ),
       ),
     );
