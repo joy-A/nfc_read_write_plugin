@@ -45,7 +45,7 @@ class NfcReadWritePlugin {
 
   static Future<dynamic> writeBlockByBytes(
     int blockIndex,
-    Uint8List data,
+    List<int> data,
   ) async {
     Map<String, dynamic> map = {};
     map["blockIndex"] = blockIndex;
@@ -85,6 +85,28 @@ class NfcReadWritePlugin {
     Map<String, dynamic> map = {};
     map["blockIndex"] = blockIndex;
     final dynamic version = await _channel.invokeMethod('readBlockBytes', map);
+    return version;
+  }
+
+  static Future<dynamic> decrypt(
+      String message, Uint8List arrKey, Uint8List arrIV) async {
+    Map<String, dynamic> map = {};
+    map["message"] = message;
+    map["arrKey"] = arrKey;
+    map["arrIV"] = arrIV;
+    final dynamic version =
+        await _channel.invokeMethod('decrypt', map);
+    return version;
+  }
+
+  static Future<dynamic> encrypt(
+      String message, Uint8List arrKey, Uint8List arrIV) async {
+    Map<String, dynamic> map = {};
+    map["message"] = message;
+    map["arrKey"] = arrKey;
+    map["arrIV"] = arrIV;
+    final dynamic version =
+        await _channel.invokeMethod('encrypt', map);
     return version;
   }
 

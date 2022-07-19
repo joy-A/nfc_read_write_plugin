@@ -22,6 +22,7 @@ import androidx.lifecycle.LifecycleOwner;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -149,10 +150,24 @@ public class NfcReadWritePlugin implements FlutterPlugin, EventChannel.StreamHan
     Integer sectorIndex =1;
     Integer blockIndex =0;
     String cardPasswordA="";
-    String cardPasswordB="";
+    String cardPasswordB=""; 
+    String message = "";  
+    byte[] arrKey = new byte[8]; 
+    byte[] arrIV = new byte[8];
     byte [] bytes;
       boolean decrypt = false;
       boolean encrypt =false;
+
+    if(call.argument("message")!=null){
+      message =call.argument("message");
+    }
+    if(call.argument("arrKey")!=null){
+      arrKey =call.argument("arrKey");
+    }
+    if(call.argument("arrIV")!=null){
+      arrIV =call.argument("arrIV");
+    }
+      
     if(call.argument("passwordA")!=null){
       cardPasswordA =call.argument("passwordA");
     } if(call.argument("passwordB")!=null){
@@ -190,6 +205,22 @@ public class NfcReadWritePlugin implements FlutterPlugin, EventChannel.StreamHan
       return;
     }
     switch (call.method){
+      case "encrypt":
+    
+      try {
+       String r =   DESKeyIVUtil.encrypt(message,arrKey,arrIV);
+       result.success(r);
+      } catch (Exception e) {
+      }
+      break;
+  case "decrypt":
+      
+      try {
+          String re =   DESKeyIVUtil.decrypt(message,arrKey,arrIV);
+          result.success(re);
+      } catch (Exception e) {
+      }
+      break;
       case  "getPlatformVersion":
         result.success("当前Android " + Build.VERSION.RELEASE);
         break;

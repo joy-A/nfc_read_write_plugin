@@ -1,7 +1,4 @@
 # nfc_read_write_plugin
-<<<<<<< HEAD
- NFC读写  貌似只支持A Miref协议的Android  自己用
-=======
 
 Flutter plugin for accessing the NFC features on Android and iOS.
 
@@ -54,5 +51,4 @@ public class MainActivity extends FlutterActivity {
 
 
 
->>>>>>> c931232f66c170ca7817fe2962d11c05f670b2b3
 
